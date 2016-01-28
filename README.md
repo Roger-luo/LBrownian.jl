@@ -25,7 +25,14 @@ function `time_evolution!(file::AbstractString,free_par::particle,time_step::Int
 time_evolution!("data.dat",Lshape,convert(Int64,1e3))
 ```
 
+use python to do animation
+
+```python
+python draw.py
+```
+
 future goals:
+- animated by Julia packages
 - evolution of a given particle
 - interaction between particles
 - complete Brownian Motion Simulator
